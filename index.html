@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Battleship</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+
+    <div id="main-content">
+        <div id="output">
+            Player 1's Turn!
+        </div>
+
+        <div class="battle-content" >
+            <div class="left-content">
+                <h2>Player 1</h2>
+                <div class="battlegrid battlegrid-1">
+
+                </div>
+            </div>
+
+            <div class="right-content">
+                <h2>Computer</h2>
+                <div id="right-cover">
+                <div class="battlegrid battlegrid-2">
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-heading center">
+                <h1 id="title-heading">BATTLESHIP</h1>
+            </div>
+            <div class="center" id="options-container">
+                <p class="options-menu" id="oneplayer-option">ONE PLAYER</p>
+                <p class="footer-menu">Code and Design by <a href="https://lee-steven.github.io">Steven Lee</a></p>
+                <p class="footer-menu">©2019 Steven Lee Games</p>
+            </div>
+            <div class="center" id="setup-container">
+               
+            </div>
+        </div>
+      
+    </div>
+
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-heading center">
+                <h1 id="title-heading">GAME OVER</h1>
+            </div>
+            <div class="center" id="winner-container">
+
+            </div>
+            <div class="center">
+                <button class="options-menu" id="restart-button">NEW GAME</button>
+            </div>
+        </div>     
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

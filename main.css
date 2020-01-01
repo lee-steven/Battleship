@@ -1,0 +1,144 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    overflow: hidden;
+}
+body{
+    max-width: 70%;
+    width: 100%;
+    height: 100%;
+
+    margin: 0 auto;
+}
+
+#myModal{
+    display: block;
+}
+#gameOverModal{
+    display: none;
+}
+
+/* COURTESY OF W3 SCHOOLS */
+.modal {
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 50px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+h1{
+    font-size: 100px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.center{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 80%;
+    height: 80vh;
+}
+
+.options-menu{
+    cursor: pointer;
+    position: relative;
+    top: 10vh;
+
+    margin: 2vh auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100%; 
+    max-width: 200px;
+
+    outline: none;
+}
+
+.footer-menu{
+    position: relative;
+    bottom: -25vh;
+
+    font-size: 12px;
+}
+
+#setup-container{
+    margin-top: 10vh;
+}
+
+table{
+    margin: 0 auto;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tr{
+    margin: 0;
+    padding: 0;
+}
+th{
+    height: 2em;
+    width: 2em;
+    border: 1px solid #6d84d1;
+    margin: 0;
+    padding: 0;
+}
+.clickableCell{
+    cursor: pointer;
+}
+.clickableCell:hover{
+    background-color: rgba(166, 201, 255, 0.5)
+}
+
+.battle-content{
+    margin-top: 5vh;
+}
+.left-content{
+    float: left;
+}
+.right-content{
+    float: right;
+}
+
+#output{
+    margin: 0 auto;
+    margin-top: 10vh;
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+    border: 1px solid  rgb(166, 201, 255);
+
+    text-align: center;
+}
+
+.hit{
+    position: relative;
+    box-shadow: inset 0 0 0 1.5px red;
+    box-sizing: border-box;
+    color: red;
+}
+.miss{
+    color: black;
+    background-color: rgba(166, 201, 255, 0.2);
+}
+#right-cover{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+}
